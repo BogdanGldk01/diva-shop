@@ -1,0 +1,34 @@
+body,
+div,
+ol,
+ul,
+li,
+p,
+header,
+footer,
+body,
+img,
+section,
+form,
+input {
+    box-sizing: border-box;
+}
+
+nav,
+div,
+header,
+ul,
+li,
+img,
+body,
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
