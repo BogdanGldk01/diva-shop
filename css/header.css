@@ -1,0 +1,61 @@
+.contacts_hedder {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 210px 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.accordion_item_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.accordion_item_trigger {
+    display: flex;
+}
+
+.accordion_item_content {
+    display: none;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+.accordion_item_input:checked ~ .accordion_item_content {
+    display: block;
+    background-color: transparent;
+}
+
+.galka {
+    margin-left: 8px;
+}
+
+.text_400 {
+    font-size: 16px;
+}
+
+.accordion_list {
+}
+
+.accordion_list_item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galki_right {
+    fill: #333333;
+    display: block;
+    height: 8px;
+    width: 4px;
+}
