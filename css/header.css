@@ -1,4 +1,10 @@
-.contacts_hedder {
+@media (max-width: 780px) {
+    .header_desktop {
+        display: none;
+    }
+}
+
+.contacts_header {
     background-color: #333333;
     width: 100%;
     display: flex;
@@ -6,56 +12,86 @@
     padding: 7px 210px 10px;
 }
 
-.navigation {
+.header {
+    padding: 28px 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
     align-items: center;
 }
 
-.accordion_item_input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-.accordion_item_trigger {
+.menu_list {
+    list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.accordion_item_content {
-    display: none;
-    padding: 10px 20px;
-    position: absolute;
+.menu_list_item {
+    margin-right: 32px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.accordion_item_input:checked ~ .accordion_item_content {
-    display: block;
-    background-color: transparent;
+.menu_list_item:last-child {
+    margin-right: 0;
 }
 
 .galka {
     margin-left: 8px;
+    transform: translateY(-1px);
 }
 
 .text_400 {
     font-size: 16px;
 }
 
-.accordion_list {
-}
-
-.accordion_list_item {
-    list-style-type: none;
+.user_corner {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.galki_right {
-    fill: #333333;
-    display: block;
-    height: 8px;
-    width: 4px;
+.user_corner_item {
+    margin-right: 48px;
+}
+
+.user_corner_item:last-child {
+    margin-right: 0;
+}
+
+.search_wrapper {
+    display: flex;
+
+}
+
+.magnifier {
+    margin-right: 20px;
+}
+
+.search {
+    border: none;
+    border-bottom: solid 1px;
+    opacity: 50%;
+    outline: none;
+}
+
+
+.favourites_wrapper {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #B61714;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    transform: translate(6px, -6px);
 }
