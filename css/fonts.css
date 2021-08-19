@@ -20,13 +20,13 @@
 
 @font-face {
     font-family: Neris;
-    font-weight: 300;
+    font-weight: 400;
     src: url(../fonts/Neris-Light.woff2) format("woff2");
 }
 
 @font-face {
     font-family: Neris;
-    font-weight: 400;
+    font-weight: 500;
     src: url(../fonts/Neris\ Regular.otf) format("otf");
 }
 

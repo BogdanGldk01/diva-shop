@@ -1,0 +1,58 @@
+
+.header_tablet_wrapper {
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .header_tablet_wrapper {
+        display: block;
+    }
+}
+
+.header_tablet {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 44px;
+}
+
+.magnifier_tablet {
+    margin-right: 56px;
+}
+
+.menu_tablet {
+    margin-top: 116px;
+}
+
+.menu_list_tablet {
+
+}
+
+.menu_list_item_tablet {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.text_500 {
+    line-height: 33px;
+}
+
+.band_wrapper {
+    color: #333333;
+    padding: 68px 220px;
+    height: 1px;
+}
+
+.band {
+    width: 100%;
+}
+
+.contacts_tablet {
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+}
