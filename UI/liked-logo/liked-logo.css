@@ -1,0 +1,10 @@
+
+.UI-liked-logo:hover path{
+    fill: #474747;
+    stroke: #474747;
+}
+
+.UI-liked-logo:active path{
+    fill: #333333;
+    stroke: #333333;
+}

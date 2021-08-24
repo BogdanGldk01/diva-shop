@@ -1,9 +1,9 @@
 
-.diva-logo:hover{
+.UI-diva-logo:hover{
     fill:#474747;
 }
 
-.diva-logo:active{
+.UI-diva-logo:active{
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
 }
 

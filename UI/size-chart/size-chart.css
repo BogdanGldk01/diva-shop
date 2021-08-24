@@ -1,0 +1,20 @@
+
+.UI-sizeChart:hover path{
+    fill: #474747;
+}
+
+.UI-sizeChart:hover p{
+    color: #474747;
+}
+
+.UI-sizeChart:active path{
+    fill: #333333;
+}
+
+.UI-sizeChart:active p{
+    color: #333333;
+}
+
+.UI-sizeChart p{
+    display: inline-block;
+}
