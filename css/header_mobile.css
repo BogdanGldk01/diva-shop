@@ -1,0 +1,52 @@
+.header_tablet {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 44px;
+}
+
+
+
+.magnifier_tablet {
+    margin-right: 56px;
+}
+
+.menu_tablet {
+    margin-top: 116px;
+}
+
+.menu_list_item_tablet {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.text_500 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.band_wrapper {
+    color: #333333;
+    padding: 68px 220px;
+    height: 1px;
+}
+
+.band {
+    width: 100%;
+}
+
+.contacts_tablet {
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+.text_contact {
+    font-size: 16px;
+}
+
+.insta {
+    width: 32px;
+    height: 32px;
+    margin: 32px auto 0;
+}
