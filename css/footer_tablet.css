@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    padding: 22px 44px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 780px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+        padding: 16px 32px;
+    }
+}
+
+.footer_item {
+    display: flex;
+}
+
+.text_footer {
+    margin-left: 14px;
+}
+
+@media (max-width: 400px) {
+    .text_footer {
+        display: none;
+    }
+}
