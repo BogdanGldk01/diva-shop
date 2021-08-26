@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diva-shop</title>
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="UI/button/button.css">
+    <link rel="stylesheet" href="UI/liked-logo/liked-logo.css">
+    <link rel="stylesheet" href="UI/logo/logo.css">
+    <link rel="stylesheet" href="UI/size-chart/size-chart.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header_tablet.css">
-    <link rel="stylesheet" href="UI/logo/logo.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/footer_tablet.css">
+    <link rel="stylesheet" href="UI/typography/text.css">
 </head>
 <body>
     <div class="header_desktop">
         <div class="contacts_header">
-                <p class="text_white  text_300">Телефон поддержки клиентов: 8 (800) 5555-069</p>
-                <p class="text_white  text_300">Режим работы: 10:00-18:00 (звонок по России бесплатный)</p>
+                <p class="UI-text UI-text secondary fw_300 fs_16">Телефон поддержки клиентов: 8 (800) 5555-069</p>
+                <p class="UI-text UI-text secondary fw_300 fs_16">Режим работы: 10:00-18:00 (звонок по России бесплатный)</p>
         </div>
         <header class="header">
             <nav class="menu">
@@ -61,7 +65,7 @@
                 <ul class="menu_list">
                     <li class="menu_list_item">
                         <a href="#">
-                            <p class="text text_400">
+                            <p class="UI-text primary fw_400 fs_16">
                                 КАТАЛОГ ТОВАРОВ 
                             </p>
                         </a>
@@ -71,28 +75,28 @@
                     </li>
                     <li class="menu_list_item">
                         <a href="#">
-                            <p class="text text_400">
+                            <p class="UI-text primary fw_400 fs_16">
                                 ОПЛАТА
                             </p>
                         </a>
                     </li>
                     <li class="menu_list_item">
                         <a href="#">
-                            <p class="text text_400">
+                            <p class="UI-text primary fw_400 fs_16">
                                 ДОСТАВКА
                             </p>
                         </a>
                     </li>
                     <li class="menu_list_item">
                         <a href="#">
-                            <p class="text text_400">
+                            <p class="UI-text primary fw_400 fs_16">
                                 НАШИ МАГАЗИНЫ
                             </p>
                         </a>
                     </li>
                     <li class="menu_list_item">
                         <a href="#">
-                            <p class="text text_400">
+                            <p class="UI-text primary fw_400 fs_16">
                                 ОПТОВЫМ ПОКУПАТЕЛЯМ
                             </p>
                         </a>
@@ -159,35 +163,35 @@
             <ul class="menu_list_tablet">
                 <li class="menu_list_item_tablet">
                     <a href="#">
-                        <p class="heading heading_3">
+                        <p class="UI-text primary fw_500 fs_16">
                             КАТАЛОГ ТОВАРОВ 
                         </p>
                     </a>
                 </li>
                 <li class="menu_list_item_tablet">
                     <a href="#">
-                        <p class="heading heading_3">
+                        <p class="UI-text primary fw_500 fs_16">
                             ОПЛАТА
                         </p>
                     </a>
                 </li>
                 <li class="menu_list_item_tablet">
                     <a href="#">
-                        <p class="heading heading_3">
+                        <p class="UI-text primary fw_500 fs_16">
                             ДОСТАВКА
                         </p>
                     </a>
                 </li>
                 <li class="menu_list_item_tablet">
                     <a href="#">
-                        <p class="heading heading_3">
+                        <p class="UI-text primary fw_500 fs_16">
                             НАШИ МАГАЗИНЫ
                         </p>
                     </a>
                 </li>
                 <li class="menu_list_item_tablet">
                     <a href="#">
-                        <p class="heading heading_3">
+                        <p class="UI-text primary fw_500 fs_16">
                             ОПТОВЫМ ПОКУПАТЕЛЯМ
                         </p>
                     </a>
@@ -198,29 +202,45 @@
             <hr class="band">
         </div>
         <div class="contacts_tablet">
-            <p class="text text_300 text_contact">Телефон поддержки клиентов:<br> 8 (800) 5555-069</p>
-            <p class="text text_300 text_contact">Режим работы:<br> 10:00-18:00 (звонок по России<br> бесплатный)</p>
+            <p class="UI-text primary fw_300">Телефон поддержки клиентов:<br> 8 (800) 5555-069</p>
+            <p class="UI-text primary fw_300">Режим работы:<br> 10:00-18:00 (звонок по России<br> бесплатный)</p>
         </div>
         <div class="insta">
             <img src="images/insta.svg">
         </div>
     </div>
+    <section class="about_store content">
+        <div>
+            <h2 class="UI-heading primary fw_400 fs_32">О МАГАЗИНЕ<br>
+                DivaShop</h2>
+            <p class="UI-text primary fw_400 fs_20 text_about_store">DivaShop — секс-шоп в Краснодаре.<br> 
+                Продаём интим-товары с 2003 года.<br> 
+                В наличии презервативы, лубриканты,<br> 
+                эротическое бельё, вибраторы<br> 
+                и BDSM-атрибутика. Гарантируем<br>
+                конфиденциальность. Доставим заказ<br> 
+                в течение суток.</p>
+        </div>
+        <img src="images/girl.png">
+        <img src="images/man.png">
+    </section>
+    <!-- футер оставляй внизу -->
     <footer class="footer">
         <div class="footer_item">
             <img src="images/catalog.svg">
-            <p class="text text_300 text_footer">Каталог</p>
+            <p class="UI-text primary fw_300 fs_16">Каталог</p>
         </div>
         <div class="footer_item">
             <img src="images/basket.svg">
-            <p class="text text_300 text_footer">Корзина</p>
+            <p class="UI-text primary fw_300 fs_16">Корзина</p>
         </div>
         <div class="footer_item">
             <img src="images/favourites.svg">
-            <p class="text text_300 text_footer">Отложенное</p>
+            <p class="UI-text primary fw_300 fs_16">Отложенное</p>
         </div>
         <div class="footer_item">
             <img src="images/profile.svg">
-            <p class="text text_300 text_footer">Личный кабинет</p>
+            <p class="UI-text primary fw_300 fs_16">Личный кабинет</p>
         </div>
     </footer>
 </body>
