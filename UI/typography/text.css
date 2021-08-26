@@ -1,0 +1,75 @@
+.UI-heading {
+    font-family: Lovelace;
+}
+.UI-text{
+    font-family: Neris;
+}
+
+.UI-text.primary{
+    color: #333333;
+}
+
+.UI-text.secondary{
+    color: #FFFFFF;
+}
+
+.UI-heading.secondary{
+    color: #FFFFFF;
+}
+
+.UI-heading.primary{
+    color: #000000;
+}
+
+
+.fw_300{
+    font-weight: 300;
+}
+
+.fw_400{
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600{
+    font-weight: 600;
+}
+
+.fs_12{
+    font-size: 12px;
+}
+
+.fs_14{
+    font-size: 14px;
+}
+
+.fs_16{
+    font-size: 16px;
+}
+
+.fs_18{
+    font-size: 18px;
+}
+
+.fs_20{
+    font-size: 20px;
+}
+
+.fs_22{
+    font-size: 22px;
+}
+
+.fs_32{
+    font-size: 32px;
+}
+
+.fs_48{
+    font-size: 48px;
+}
+
+.fStyle{
+    font-style: italic;
+}

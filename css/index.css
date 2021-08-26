@@ -1,0 +1,11 @@
+.about_store {
+    display: grid;
+    gap: 234px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text_about_store {
+    margin-top: 36px;
+    margin-bottom: 214px;
+}
+

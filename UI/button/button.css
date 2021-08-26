@@ -6,19 +6,19 @@
     padding: 0.5em 1em;
 }
 
-.primary{
+.UI-button.primary{
     background: #333333;
 }
 
-.primary:hover{
+.UI-button.primary:hover{
     background: #474747;
 }
 
-.secondary{
+.UI-button.secondary{
     border: 1px solid #FFFFFF;
 }
 
-.secondary:hover{
+.UI-button.secondary:hover{
     background: #FFFFFF;
     color: #333333;
 }
