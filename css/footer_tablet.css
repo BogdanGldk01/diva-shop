@@ -26,6 +26,25 @@
     display: flex;
 }
 
+.footer_item_list {
+    margin-left: 15px;
+}
+
+.favourites {
+    position: relative;
+}
+
+.ellipse_footer {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #B61714;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    transform: translate(12px, -6px);
+}
+
 .text_footer {
     margin-left: 14px;
 }

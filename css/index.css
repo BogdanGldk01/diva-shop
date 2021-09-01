@@ -1,11 +1,83 @@
 .about_store {
-    display: grid;
-    gap: 234px;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 174px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 350px) {
+    .about_store {
+        padding: 28px 16px;
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+.heading_about_store {
+    padding-left: 96px;
+}
+
+@media (max-width: 780px) {
+    .heading_about_store {
+        padding-left: 0;
+    }
 }
 
 .text_about_store {
+    Line-height: 26,8px;
     margin-top: 36px;
     margin-bottom: 214px;
+    padding-left: 96px;
 }
 
+@media (max-width: 780px) {
+    .text_about_store {
+        margin-top: 32px;
+        margin-bottom: 64px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .fw_400 {
+        font-weight: 300px;
+    }
+    .fs_20 {
+        font-size: 16px;
+    }
+    .fs_32 {
+        font-size: 24px;
+    }
+}
+
+.girl_about_store_wrapper {
+}
+
+.girl_about_store {
+    max-width: 623px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 780px) {
+    .girl_about_store {
+        max-width: 302px;
+    }
+}
+
+.man_about_store_wrapper {
+    margin-bottom: 0;
+}
+
+@media (max-width: 350px) {
+    .man_about_store_wrapper {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 780px) {
+    .man_about_store {
+        max-width: 328px;
+        width: 100%;
+        height: auto;
+    }
+}
