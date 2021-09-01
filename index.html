@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="UI/button/button.css">
+    <link rel="stylesheet" href="UI/anonymity/anonymity.css">
+    <link rel="stylesheet" href="UI/typography/text.css">
     <link rel="stylesheet" href="UI/liked-logo/liked-logo.css">
     <link rel="stylesheet" href="UI/logo/logo.css">
     <link rel="stylesheet" href="UI/size-chart/size-chart.css">
@@ -17,7 +19,6 @@
     <link rel="stylesheet" href="css/header_tablet.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/footer_tablet.css">
-    <link rel="stylesheet" href="UI/typography/text.css">
 </head>
 <body>
     <div class="header_desktop">
@@ -210,38 +211,61 @@
         </div>
     </div>
     <section class="about_store content">
-        <div>
-            <h2 class="UI-heading primary fw_400 fs_32">О МАГАЗИНЕ<br>
+        <div class="man_about_store_wrapper">
+            <h2 class="UI-heading primary fw_500 fs_32 heading_about_store">
+                О МАГАЗИНЕ<br>
                 DivaShop</h2>
-            <p class="UI-text primary fw_400 fs_20 text_about_store">DivaShop — секс-шоп в Краснодаре.<br> 
+            <p class="UI-text primary fw_400 fs_20 text_about_store">
+                DivaShop — секс-шоп в Краснодаре.<br> 
                 Продаём интим-товары с 2003 года.<br> 
                 В наличии презервативы, лубриканты,<br> 
                 эротическое бельё, вибраторы<br> 
                 и BDSM-атрибутика. Гарантируем<br>
                 конфиденциальность. Доставим заказ<br> 
-                в течение суток.</p>
+                в течение суток.
+            </p>
+            <img class="man_about_store" src="images/man.png">
         </div>
-        <img src="images/girl.png">
-        <img src="images/man.png">
+        <div class="girl_about_store_wrapper">
+            <img class="girl_about_store" src="images/girl.png">
+            <div class="anonymity">
+                <h2 class="UI-heading primary fw_500 fs_16 heading_anonymity">ПОЛНАЯ<br> 
+                    АНОНИМНОСТЬ</h2>
+                <p class="UI-text primary fw_300 fs_12 text_anonymity">С момента отправки товара<br> 
+                    и до тех пор, пока он не попадет<br> 
+                    к Вам в руки, мы обеспечиваем<br> 
+                    полную анонимность заказа</p>
+                <div class="switch">
+                    <div class="pisun_wrapper">
+                        <img class="pisun" src="images/Vector_anonymity_right.svg">
+                        <img class="pisun" src="images/Vector_anonymity_left.svg">
+                    </div>
+                    <img class="pisun_2" src="images/rectangle.svg">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- футер оставляй внизу -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer_item">
             <img src="images/catalog.svg">
-            <p class="UI-text primary fw_300 fs_16">Каталог</p>
+            <p class="UI-text primary fw_300 fs_16 footer_item_list">Каталог</p>
         </div>
         <div class="footer_item">
             <img src="images/basket.svg">
-            <p class="UI-text primary fw_300 fs_16">Корзина</p>
+            <p class="UI-text primary fw_300 fs_16 footer_item_list">Корзина</p>
         </div>
         <div class="footer_item">
             <img src="images/favourites.svg">
-            <p class="UI-text primary fw_300 fs_16">Отложенное</p>
+            <div class="favourites">
+                <p class="UI-text primary fw_300 fs_16 footer_item_list">Отложенное</p>
+                <div class="ellipse_footer"></div>
+            </div>
         </div>
         <div class="footer_item">
             <img src="images/profile.svg">
-            <p class="UI-text primary fw_300 fs_16">Личный кабинет</p>
+            <p class="UI-text primary fw_300 fs_16 footer_item_list">Личный кабинет</p>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>

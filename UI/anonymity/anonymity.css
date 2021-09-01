@@ -1,0 +1,42 @@
+.anonymity {
+    display: none;
+}
+
+.heading_anonymity {
+padding-bottom: 12px;
+}
+
+.text_anonymity {
+    padding-bottom: 72px;
+}
+
+@media (max-width: 350px) {
+    .anonymity {
+        display: block;
+        background: #ffffff;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+        padding: 32px 20px;
+        margin: 0 12px 0;
+        transform: translateY(-115px); 
+    } 
+}
+
+.switch {
+    display: flex;
+}
+
+.pisun_wrapper {
+    display: flex;
+}
+
+.pisun {
+    margin-right: 10px;
+}
+
+.pisun:last-child {
+    margin-right: 0;
+}
+
+.pisun_2 {
+    margin-left: 32px;
+}
